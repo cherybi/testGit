@@ -1,8 +1,23 @@
+ - git kokens
+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
 
+…or create a new repository on the command line
+echo "# testGit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/cherybi/testGit.git
+git push -u origin main
+
+…or push an existing repository from the command line
 git remote add origin https://github.com/cherybi/testGit.git
 git branch -M main
 git push -u origin main
 
- - git kokens
-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
-
+1. git remote remove origin
+명령어를 입력하여 기존에 연결되어 있는 원격 저장소와의 연결을 끊어준다.
+2. git remote add origin [새롭게 연결할 Git 레파지토리 주소]
+명령어를 입력한다. 
+3. git push origin master
+명령어를 입력하여 소스코드를 정상적으로 업로드할수있게된다.
