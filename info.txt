@@ -1,0 +1,9 @@
+
+git kokens
+
+git remote add origin https://github.com/cherybi/testGit.git
+git branch -M main
+git push -u origin main
+
+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
+
